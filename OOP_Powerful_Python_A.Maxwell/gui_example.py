@@ -1,6 +1,6 @@
-""""
+"""
 http://zetcode.com/gui/pyqt5/firstprograms/
-""""
+"""
 
 import sys
 from PyQt5.QWidgets import (QWidget, QToolTip, QPushButton, QApplication)

@@ -1,3 +1,6 @@
-# On object-oriented programming in python
+### Small example for using OOP in python
+___
 
-This repository contains a small number of examples of beginner level topcis on the theme of classes in python.
+## On object-oriented programming in python
+
+This repository contains a small number of examples of beginner level topics on the theme of classes in python.
