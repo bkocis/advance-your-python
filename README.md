@@ -15,7 +15,7 @@ Readings:
 
 
 ```python
-# given a list, the map funciton can transform it
+# given a list, the map function can transform it
 l = ['1', '2']
 
 def square_me(x):
@@ -23,6 +23,6 @@ def square_me(x):
 
 list(map(square_me, map(int, l)))
 
-Out[16]: [3, 6]
+Out: [3, 6]
 
 ```
