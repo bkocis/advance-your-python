@@ -1,4 +1,4 @@
-### Small example for using OOP in python
+### Examples of using OOP in python, and other python handy-dandys
 ___
 
 ## On object-oriented programming in python
