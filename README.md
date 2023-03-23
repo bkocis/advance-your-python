@@ -13,6 +13,8 @@ Readings:
 
 [10-code-examples-AoC](https://medium.com/techtofreedom/10-remarkable-python-oop-tips-that-will-optimize-your-code-significantly-a47e4103b44d)
 
+Comparison of list comprehansions and `map()` functions: 
+[comparing-list-comprehensions-vs-built-in-functions-in-python-which-is-better](https://towardsdatascience.com/comparing-list-comprehensions-vs-built-in-functions-in-python-which-is-better-1e2c9646fafe)
 
 ```python
 # given a list, the map function can transform it
