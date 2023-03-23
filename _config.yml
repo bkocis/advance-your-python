@@ -1,0 +1,26 @@
+title: Advance your python skills for data science
+author: Balazs Kocsis
+
+execute:
+  execute_notebooks: off
+  exclude_patterns:
+  - 'OOP_Powerful_Python_A_Maxwell/classes.ipynb'
+
+sphinx:
+  config:
+    html_js_files:
+    - https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js
+
+repository:
+  url: https://github.com/bkocis/advance-your-python
+  path_to_book:  . # Optional path to your book, relative to the repository root
+  branch: master
+
+html:
+  use_issues_button: true
+  use_repository_button: true
+  comments:
+    utterances:
+      repo: "bkocis/advance-your-python"
+
+theme: jekyll-theme-slate
