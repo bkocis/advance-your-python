@@ -34,3 +34,4 @@ Out: [3, 6]
 
 [should-you-use-getters-and-setters-in-python](https://python.plainenglish.io/should-you-use-getters-and-setters-in-python-d4db9a892878)
 
+[Protocols-in-python](https://godatadriven.com/blog/protocols-in-python-why-you-need-them/)
