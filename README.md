@@ -6,21 +6,21 @@ ___
 This repository contains a small number of examples of beginner level topics on the theme of classes in python.
 
 Contents:
-- [classes](https://bkocis.github.io/advance-your-python/OOP_Powerful_Python_A_Maxwell/classes)
-  - [class attributes](https://bkocis.github.io/advance-your-python/OOP_Powerful_Python_A_Maxwell/class_attributes)
-  - [instance attributes](https://bkocis.github.io/advance-your-python/OOP_Powerful_Python_A_Maxwell/instance_attributes)
-  - [class methods](https://bkocis.github.io/advance-your-python/OOP_Powerful_Python_A_Maxwell/class_methods)
-  - [static methods](https://bkocis.github.io/advance-your-python/OOP_Powerful_Python_A_Maxwell/static_methods)
-  - [dataclasses](https://bkocis.github.io/advance-your-python/OOP_Powerful_Python_A_Maxwell/dataclasses)
-  - [abstract base classes](https://bkocis.github.io/advance-your-python/OOP_Powerful_Python_A_Maxwell/abstract_classes)
-- [inheritance](https://bkocis.github.io/advance-your-python/OOP_Powerful_Python_A_Maxwell/inheritance)
-- [polymorphism](https://bkocis.github.io/advance-your-python/OOP_Powerful_Python_A_Maxwell/polymorphism)
-- [encapsulation](https://bkocis.github.io/advance-your-python/OOP_Powerful_Python_A_Maxwell/encapsulation)
-- [magic methods](https://bkocis.github.io/advance-your-python/OOP_Powerful_Python_A_Maxwell/magic_methods)
-- [decorators](https://bkocis.github.io/advance-your-python/OOP_Powerful_Python_A_Maxwell/decorators)
-- [generators](https://bkocis.github.io/advance-your-python/OOP_Powerful_Python_A_Maxwell/generators)
-- [context managers](https://bkocis.github.io/advance-your-python/OOP_Powerful_Python_A_Maxwell/context_managers)
-- [iterators](https://bkocis.github.io/advance-your-python/OOP_Powerful_Python_A_Maxwell/iterators)
+- [classes](https://bkocis.github.io/advance-your-python/Types_of_classes_in_python/classes)
+  - [class attributes](https://bkocis.github.io/advance-your-python/Types_of_classes_in_python/class_attributes)
+  - [instance attributes](https://bkocis.github.io/advance-your-python/Types_of_classes_in_python/instance_attributes)
+  - [class methods](https://bkocis.github.io/advance-your-python/Types_of_classes_in_python/classes#Classmethods)
+  - [static methods](https://bkocis.github.io/advance-your-python/Types_of_classes_in_python/static_methods)
+  - [dataclasses](https://bkocis.github.io/advance-your-python/Types_of_classes_in_python/dataclasses)
+  - [abstract base classes](https://bkocis.github.io/advance-your-python/Types_of_classes_in_python/abstract_classes)
+- [inheritance](https://bkocis.github.io/advance-your-python/Types_of_classes_in_python/inheritance)
+- [polymorphism](https://bkocis.github.io/advance-your-python/Types_of_classes_in_python/polymorphism)
+- [encapsulation](https://bkocis.github.io/advance-your-python/Types_of_classes_in_python/encapsulation)
+- [magic methods](https://bkocis.github.io/advance-your-python/Types_of_classes_in_python/magic_methods)
+- [decorators](https://bkocis.github.io/advance-your-python/Types_of_classes_in_python/decorators)
+- [generators](https://bkocis.github.io/advance-your-python/Types_of_classes_in_python/generators)
+- [context managers](https://bkocis.github.io/advance-your-python/Types_of_classes_in_python/context_managers)
+- [iterators](https://bkocis.github.io/advance-your-python/Types_of_classes_in_python/iterators)
 
 
 Readings:
