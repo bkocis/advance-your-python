@@ -7,13 +7,13 @@ This repository contains a small number of examples of beginner level topics on 
 
 Contents:
 - [classes](https://bkocis.github.io/advance-your-python/Types_of_classes_in_python/classes)
-  - [class attributes](https://bkocis.github.io/advance-your-python/Types_of_classes_in_python/class_attributes)
-  - [instance attributes](https://bkocis.github.io/advance-your-python/Types_of_classes_in_python/instance_attributes)
+  - [class variables](https://bkocis.github.io/advance-your-python/Types_of_classes_in_python/classes#Class_variables)
+  - [instance attributes](https://bkocis.github.io/advance-your-python/Types_of_classes_in_python/classes#Classes_and_instances)
   - [class methods](https://bkocis.github.io/advance-your-python/Types_of_classes_in_python/classes#Classmethods)
-  - [static methods](https://bkocis.github.io/advance-your-python/Types_of_classes_in_python/static_methods)
+  - [static methods](https://bkocis.github.io/advance-your-python/Types_of_classes_in_python/classes#Staticmethods)
   - [dataclasses](https://bkocis.github.io/advance-your-python/Types_of_classes_in_python/dataclasses)
   - [abstract base classes](https://bkocis.github.io/advance-your-python/Types_of_classes_in_python/abstract_classes)
-- [inheritance](https://bkocis.github.io/advance-your-python/Types_of_classes_in_python/inheritance)
+- [inheritance](https://bkocis.github.io/advance-your-python/Types_of_classes_in_python/classes#Inharitance)
 - [polymorphism](https://bkocis.github.io/advance-your-python/Types_of_classes_in_python/polymorphism)
 - [encapsulation](https://bkocis.github.io/advance-your-python/Types_of_classes_in_python/encapsulation)
 - [magic methods](https://bkocis.github.io/advance-your-python/Types_of_classes_in_python/magic_methods)
