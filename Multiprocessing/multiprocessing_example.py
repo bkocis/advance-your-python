@@ -1,51 +1,32 @@
-# 
 import multiprocessing
+import time
 
 
-def square(n):
+def square(n, result, index):
     """Calculate the square of a number."""
-    return n * n
+    print(f"Calculating the square of {n}")
+    time.sleep(1)
+    result[index] = n * n
 
 
-def square_chunk(chunk, queue):
-    squared_chunk = [square(n) for n in chunk]
-    queue.put(squared_chunk)
-
-
-def parallel_square(numbers, num_cores):
+def parallel_square(numbers):
     """Parallelize the square calculation using multiprocessing."""
-    process_count = min(num_cores, len(numbers))
-    result_queue = multiprocessing.Queue()
-
-    chunk_size = len(numbers) // process_count
-    extra = len(numbers) % process_count
+    process_count = len(numbers)
+    result = multiprocessing.Array('i', process_count)
     processes = []
 
-    start = 0
-    for i in range(process_count):
-        end = start + chunk_size + (1 if extra > 0 else 0)
-        extra -= 1
-
-        p = multiprocessing.Process(
-            target=square_chunk,
-            args=(numbers[start:end], result_queue)
-        )
+    for i, n in enumerate(numbers):
+        p = multiprocessing.Process(target=square, args=(n, result, i))
         processes.append(p)
         p.start()
-        start = end
 
     for p in processes:
         p.join()
 
-    squared_numbers = []
-    while not result_queue.empty():
-        squared_numbers.extend(result_queue.get())
-
-    return squared_numbers
+    return list(result)
 
 
 if __name__ == "__main__":
-    numbers = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29]
-    num_cores = 4
-    squared_numbers = parallel_square(numbers, num_cores)
+    numbers = range(0, 5000) # [2, 3, 5, 7, 11, 13, 17, 19, 23, 29]
+    squared_numbers = parallel_square(numbers)
     print(f"Squared numbers: {squared_numbers}")
