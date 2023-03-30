@@ -6,21 +6,21 @@ ___
 This repository contains a small number of examples of beginner level topics on the theme of classes in python.
 
 Contents:
-- [classes](https://bkocis.github.io/advance-your-python/classes_in_pythoon/classes)
-  - [class variables](https://bkocis.github.io/advance-your-python/classes_in_pythoon/classes#Class_variables)
-  - [instance attributes](https://bkocis.github.io/advance-your-python/classes_in_pythoon/classes#Classes_and_instances)
-  - [class methods](https://bkocis.github.io/advance-your-python/classes_in_pythoon/classes#Classmethods)
-  - [static methods](https://bkocis.github.io/advance-your-python/classes_in_pythoon/classes#Staticmethods)
-  - [dataclasses](https://bkocis.github.io/advance-your-python/classes_in_pythoon/dataclasses)
-  - [abstract base classes](https://bkocis.github.io/advance-your-python/classes_in_pythoon/abstract_classes)
-- [inheritance](https://bkocis.github.io/advance-your-python/classes_in_pythoon/classes#Inharitance)
-- [polymorphism](https://bkocis.github.io/advance-your-python/classes_in_pythoon/polymorphism)
-- [encapsulation](https://bkocis.github.io/advance-your-python/classes_in_pythoon/encapsulation)
-- [magic methods](https://bkocis.github.io/advance-your-python/classes_in_pythoon/magic_methods)
-- [decorators](https://bkocis.github.io/advance-your-python/classes_in_pythoon/decorators)
-- [generators](https://bkocis.github.io/advance-your-python/classes_in_pythoon/generators)
-- [context managers](https://bkocis.github.io/advance-your-python/classes_in_pythoon/context_managers)
-- [iterators](https://bkocis.github.io/advance-your-python/classes_in_pythoon/iterators)
+- [classes](https://bkocis.github.io/advance-your-python/classes_in_python/classes)
+  - [class variables](https://bkocis.github.io/advance-your-python/classes_in_python/classes#Class_variables)
+  - [instance attributes](https://bkocis.github.io/advance-your-python/classes_in_python/classes#Classes_and_instances)
+  - [class methods](https://bkocis.github.io/advance-your-python/classes_in_python/classes#Classmethods)
+  - [static methods](https://bkocis.github.io/advance-your-python/classes_in_python/classes#Staticmethods)
+  - [dataclasses](https://bkocis.github.io/advance-your-python/classes_in_python/dataclasses)
+  - [abstract base classes](https://bkocis.github.io/advance-your-python/classes_in_python/abstract_classes)
+- [inheritance](https://bkocis.github.io/advance-your-python/classes_in_python/classes#Inharitance)
+- [polymorphism](https://bkocis.github.io/advance-your-python/classes_in_python/polymorphism)
+- [encapsulation](https://bkocis.github.io/advance-your-python/classes_in_python/encapsulation)
+- [magic methods](https://bkocis.github.io/advance-your-python/classes_in_python/magic_methods)
+- [decorators](https://bkocis.github.io/advance-your-python/classes_in_python/decorators)
+- [generators](https://bkocis.github.io/advance-your-python/classes_in_python/generators)
+- [context managers](https://bkocis.github.io/advance-your-python/classes_in_python/context_managers)
+- [iterators](https://bkocis.github.io/advance-your-python/classes_in_python/iterators)
 
 
 Readings:
