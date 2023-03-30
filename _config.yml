@@ -23,4 +23,6 @@ html:
     utterances:
       repo: "bkocis/advance-your-python"
 
+markdown: kramdown
+
 theme: jekyll-theme-slate
