@@ -1,8 +1,22 @@
 import multiprocessing
+import time
+
+
+def timeit(method):
+    def timed(*args, **kw):
+        start = time.time()
+        result = method(*args, **kw)
+        end = time.time()
+        timing = end - start
+        print(f'<<<TIMING>>> {method.__name__}  {timing} sec')
+        return result # , timing
+    return timed
 
 
 def square(n):
     """Calculate the square of a number."""
+    print(f"Calculating the square of {n}")
+    time.sleep(1)
     return n * n
 
 
@@ -11,6 +25,7 @@ def square_chunk(chunk, queue):
     queue.put(squared_chunk)
 
 
+@timeit
 def parallel_square(numbers, num_cores):
     """Parallelize the square calculation using multiprocessing."""
     process_count = min(num_cores, len(numbers))
@@ -44,7 +59,7 @@ def parallel_square(numbers, num_cores):
 
 
 if __name__ == "__main__":
-    numbers = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29]
-    num_cores = 4
+    numbers = range(0, 50)
+    num_cores = 10
     squared_numbers = parallel_square(numbers, num_cores)
     print(f"Squared numbers: {squared_numbers}")
