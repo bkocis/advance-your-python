@@ -14613,7 +14613,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <hr />
 <h3 id="Content"><a href="#Content%60">Content</a><a name="Content" /><a class="anchor-link" href="#Content">&#182;</a></h3><hr />
-<h4 id="1.1-Classes-and-instances">1.1 <a href="#Classes_and_instances">Classes and instances</a><a class="anchor-link" href="#1.1-Classes-and-instances">&#182;</a></h4><h4 id="1.2-Class-variables">1.2 <a href="#Class_variables">Class variables</a><a class="anchor-link" href="#1.2-Class-variables">&#182;</a></h4><h4 id="1.3-Classmethods">1.3 <a href="#Classmethods">Classmethods</a><a class="anchor-link" href="#1.3-Classmethods">&#182;</a></h4><h4 id="1.4-Staticmethods">1.4 <a href="#Staticmethods">Staticmethods</a><a class="anchor-link" href="#1.4-Staticmethods">&#182;</a></h4><h4 id="1.5-Inharitance">1.5 <a href="#Inharitance">Inharitance</a><a class="anchor-link" href="#1.5-Inharitance">&#182;</a></h4><h4 id="1.6-Property-decorator">1.6 <a href="#Property_decorator">Property decorator</a><a class="anchor-link" href="#1.6-Property-decorator">&#182;</a></h4><h4 id="2.1-An-iterator-class">2.1 <a href="#_iterator_class">An iterator class</a><a class="anchor-link" href="#2.1-An-iterator-class">&#182;</a></h4><h5 id="2.1.1-The-iterator-protocol">2.1.1 <a href="#_iterator_protocol">The iterator protocol</a><a class="anchor-link" href="#2.1.1-The-iterator-protocol">&#182;</a></h5>
+<h4 id="1.1-Classes-and-instances">1.1 <a href="#Classes_and_instances">Classes and instances</a><a class="anchor-link" href="#1.1-Classes-and-instances">&#182;</a></h4><h4 id="1.2-Class-variables">1.2 <a href="#Class_variables">Class variables</a><a class="anchor-link" href="#1.2-Class-variables">&#182;</a></h4><h4 id="1.3-Classmethods">1.3 <a href="#Classmethods">Classmethods</a><a class="anchor-link" href="#1.3-Classmethods">&#182;</a></h4><h4 id="1.4-Staticmethods">1.4 <a href="#Staticmethods">Staticmethods</a><a class="anchor-link" href="#1.4-Staticmethods">&#182;</a></h4><h4 id="1.5-Inharitance">1.5 <a href="#Inharitance">Inharitance</a><a class="anchor-link" href="#1.5-Inharitance">&#182;</a></h4><h4 id="1.6-Property-decorator">1.6 <a href="#Property_decorator">Property decorator</a><a class="anchor-link" href="#1.6-Property-decorator">&#182;</a></h4><h4 id="1.7-An-iterator-class">1.7 <a href="#_iterator_class">An iterator class</a><a class="anchor-link" href="#1.7-An-iterator-class">&#182;</a></h4>
 </div>
 </div>
 </div>
@@ -14777,6 +14777,9 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p>&quot;Class variables are variables that are shared between all instances of a class&quot;</p>
+<p>Class variables are a type of variables that hold values or data that are shared among all instances or objects of a class. They are declared within the class but outside of any class methods or functions. Class variables are also known as static variables in some other programming languages.</p>
+<p>They are not unique to each instance of the class, meaning that any changes made to a class variable will be reflected across all instances of the class. This can be useful for storing data that is common to all objects of the class, such as default values or constants.</p>
+<p>For example, consider a class called 'Employee' that has a class variable 'raise_amount' set to 1.04. All instances of the 'Employee' class will have access to this variable and can modify its value. If one instance of the class changes the value of raise amount, this change will be visible to all other instances of the that class.</p>
 
 </div>
 </div>
@@ -14904,7 +14907,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>{&#39;__module__&#39;: &#39;__main__&#39;, &#39;raise_amount&#39;: 1.04, &#39;__init__&#39;: &lt;function Employee.__init__ at 0x7f1c241ac040&gt;, &#39;fullname&#39;: &lt;function Employee.fullname at 0x7f1c241ac0d0&gt;, &#39;apply_raise&#39;: &lt;function Employee.apply_raise at 0x7f1c241ac160&gt;, &#39;__dict__&#39;: &lt;attribute &#39;__dict__&#39; of &#39;Employee&#39; objects&gt;, &#39;__weakref__&#39;: &lt;attribute &#39;__weakref__&#39; of &#39;Employee&#39; objects&gt;, &#39;__doc__&#39;: None}
+<pre>{&#39;__module__&#39;: &#39;__main__&#39;, &#39;raise_amount&#39;: 1.04, &#39;__init__&#39;: &lt;function Employee.__init__ at 0x7fed003fc040&gt;, &#39;fullname&#39;: &lt;function Employee.fullname at 0x7fed003fc160&gt;, &#39;apply_raise&#39;: &lt;function Employee.apply_raise at 0x7fed003fc1f0&gt;, &#39;__dict__&#39;: &lt;attribute &#39;__dict__&#39; of &#39;Employee&#39; objects&gt;, &#39;__weakref__&#39;: &lt;attribute &#39;__weakref__&#39; of &#39;Employee&#39; objects&gt;, &#39;__doc__&#39;: None}
 </pre>
 </div>
 </div>
@@ -15136,6 +15139,9 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p>&quot;Classmethods receive the class as the first argument instead of an instance&quot;</p>
+<p>Class methods are defined using the @classmethod decorator and are used to define a method that operates on the class itself rather than an instance of the class. When a class method is called, the class is passed in as the first argument instead of an instance.</p>
+<p>This is useful when you want to create a method that operates on the class itself rather than an instance of the class. Class methods can access and modify class-level data, and can also create new instances of the class if needed.</p>
+<p>They can't access instance-level data, such as instance variables or instance methods. They are only able to access and modify class-level data and methods.</p>
 
 </div>
 </div>
@@ -16396,7 +16402,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>&lt;generator object make_squares at 0x7f1c241aa960&gt;</pre>
+<pre>&lt;generator object make_squares at 0x7fed003ee5e0&gt;</pre>
 </div>
 
 </div>
