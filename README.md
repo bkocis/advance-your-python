@@ -24,10 +24,16 @@ Contents:
 - [Examples of using multiprocessing](https://bkocis.github.io/advance-your-python/examples_of_multiprocessing/multiprocessing)
 
 ## Some example of functions 
-- [map](https://bkocis.github.io/advance-your-python/functions_and_their_usage/functions#map)
-- [decorators](https://bkocis.github.io/advance-your-python/decorators)
+- [map](https://bkocis.github.io/advance-your-python/functions_and_their_usage/examples_of_functions#map)
+
+## Generators
 - [generators](https://bkocis.github.io/advance-your-python/generators)
+
+## Closures and decorators
+- [decorators](https://bkocis.github.io/advance-your-python/decorators)
 - [context managers](https://bkocis.github.io/advance-your-python/context_managers)
+
+## Some example of itertools
 - [iterators](https://bkocis.github.io/advance-your-python/iterators)
 
 
