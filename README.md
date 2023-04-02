@@ -1,7 +1,10 @@
 ### Examples of some concepts in python, and other python handy-dandys
 ___
 
-
+This repo is written in a style of a book, where code examples are given in a very pragmatic and simplistic manner. 
+The aim of this presentation is to offer a catalogue of examples of some of the most important concepts in python, and other python handy-dandys.
+It is not meant to be a complete reference, but rather a quick reference for those who are already familiar with the basics of python.
+The audience of this book is assumed to be for fellow data scientist, who are looking for a quick reference to some of the more advanced concepts in python gathered at one place, and in short. 
 
 Contents:
 ## Some topics of Object-oriented programming in python
@@ -21,13 +24,16 @@ Contents:
 - [Examples of using multiprocessing](https://bkocis.github.io/advance-your-python/examples_of_multiprocessing/multiprocessing)
 
 ## Some example of functions 
+- [map](https://bkocis.github.io/advance-your-python/functions_and_their_usage/functions#map)
 - [decorators](https://bkocis.github.io/advance-your-python/decorators)
 - [generators](https://bkocis.github.io/advance-your-python/generators)
 - [context managers](https://bkocis.github.io/advance-your-python/context_managers)
 - [iterators](https://bkocis.github.io/advance-your-python/iterators)
 
 
-Readings:
+---
+
+Reading references:
 
 [5-python-tricks](https://towardsdatascience.com/5-python-tricks-that-distinguish-senior-developers-from-juniors-826d57ab3940)
 

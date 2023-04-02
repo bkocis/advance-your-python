@@ -1,10 +1,9 @@
 title: Advance your python skills for data science
+description: A collection of python tips and tricks that can be useful (for data scientists)
 author: Balazs Kocsis
 
 execute:
   execute_notebooks: off
-  exclude_patterns:
-  - 'OOP_Powerful_Python_A_Maxwell/classes.ipynb'
 
 sphinx:
   config:
@@ -13,7 +12,7 @@ sphinx:
 
 repository:
   url: https://github.com/bkocis/advance-your-python
-  path_to_book:  . # Optional path to your book, relative to the repository root
+  path_to_book:  .
   branch: master
 
 html:
