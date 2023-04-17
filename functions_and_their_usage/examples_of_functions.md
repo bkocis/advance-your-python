@@ -21,3 +21,36 @@ Out: [3, 6]
 
 
 ### `map` with `reduce`
+
+
+### `*args` and `**kwargs`
+
+
+
+```python
+
+
+def boo(a,b,**kwargs):
+    if kwargs:
+        c = kwargs['c']
+        return a*b*c
+    return a*b
+# the **kwargs can be any dict, with specified keys and values
+k = {'c':3}
+# passing it as **kwargs
+boo(1,2,**k)
+# it is also optional
+boo(1,2)
+
+# *args is simply a tuple, which can be unpacked in the function for use
+def goo(*args):
+    return sum([i for i in args])
+
+```
+
+Using "/" and "*" in the function definition to specify the parameters that can be passed as positional or keyword arguments
+
+```pyhton
+def f(a, b, /, c, d, *, e, f):
+    print(a, b, c, d, e, f)
+```
