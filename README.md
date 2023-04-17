@@ -8,6 +8,7 @@ The audience of this book is assumed to be for fellow data scientist, who are lo
 
 Contents:
 ## Some topics of Object-oriented programming in python
+
 - [Types of classes](https://bkocis.github.io/advance-your-python/classes_in_python/classes)
   - [class variables](https://bkocis.github.io/advance-your-python/classes_in_python/classes#Class_variables)
   - [instance attributes](https://bkocis.github.io/advance-your-python/classes_in_python/classes#Classes_and_instances)
@@ -21,19 +22,28 @@ Contents:
   - [magic methods](https://bkocis.github.io/advance-your-python/classes_in_python/magic_methods)
 
 ## Parallelization
+
 - [Examples of using multiprocessing](https://bkocis.github.io/advance-your-python/examples_of_multiprocessing/multiprocessing)
 
 ## Some example of functions 
+
 - [map](https://bkocis.github.io/advance-your-python/functions_and_their_usage/examples_of_functions#map)
 
 ## Generators
+
 - [generators](https://bkocis.github.io/advance-your-python/generators)
 
 ## Closures and decorators
+
 - [decorators](https://bkocis.github.io/advance-your-python/decorators)
 - [context managers](https://bkocis.github.io/advance-your-python/context_managers)
 
+## Some example of expressions
+
+- [assignment expressions](https://bkocis.github.io/advance-your-python/expressions/python_expressions#Assignment_expressions)
+
 ## Some example of itertools
+
 - [iterators](https://bkocis.github.io/advance-your-python/iterators)
 
 
