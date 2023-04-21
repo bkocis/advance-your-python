@@ -62,3 +62,5 @@ Reading references:
 [should-you-use-getters-and-setters-in-python](https://python.plainenglish.io/should-you-use-getters-and-setters-in-python-d4db9a892878)
 
 [Protocols-in-python](https://godatadriven.com/blog/protocols-in-python-why-you-need-them/)
+
+[Design patterns (factory, strategy)](https://laszlo.substack.com/p/you-only-need-2-design-patterns-to?s=w)
