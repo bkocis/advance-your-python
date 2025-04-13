@@ -24,31 +24,4 @@ html:
 
 markdown: kramdown
 
-theme: jekyll-theme-cayman
-
-# Additional configuration for better design
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-
-# Site settings
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
-
-# Build settings
-markdown: kramdown
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
-
-# Navigation
-nav_external_links:
-  - title: GitHub
-    url: https://github.com/bkocis/advance-your-python
-  - title: Issues
-    url: https://github.com/bkocis/advance-your-python/issues
+theme: jekyll-theme-slate
