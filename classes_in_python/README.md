@@ -1,82 +1,37 @@
-# Improved Python Classes
+# Python Classes Documentation
 
-This module provides improved implementations of Python classes with better type hints, error handling, and documentation.
+This repository contains comprehensive documentation and examples of different types of classes in Python.
 
-## Improvements Made
+## Documentation
 
-1. **Type Hints**
-   - Added proper type hints for all methods and attributes
-   - Used Python's typing module for complex types
-   - Added return type annotations
+The main documentation is available in [classes.md](classes.md), which covers:
 
-2. **Error Handling**
-   - Added input validation
-   - Added proper error messages
-   - Added exception handling for edge cases
+- Basic Classes and Instances
+- Class Variables
+- Class Methods
+- Static Methods
+- Inheritance
+- Property Decorator
+- Iterator Class
 
-3. **Documentation**
-   - Added comprehensive docstrings
-   - Added examples in docstrings
-   - Added type information in docstrings
-   - Added exception information in docstrings
+## Examples
 
-4. **Code Quality**
-   - Used f-strings for string formatting
-   - Added input normalization
-   - Improved method implementations
-   - Added proper inheritance patterns
+The repository includes:
 
-5. **Testing**
-   - Added comprehensive test cases
-   - Added example usage
-   - Added error case testing
-
-## Classes
-
-### Employee
-Base class for all employees with basic information and salary management.
-
-### Developer
-Subclass of Employee with additional programming language attribute and higher raise amount.
-
-### Manager
-Subclass of Employee that can manage a team of employees.
-
-### SquaresIterator
-Iterator class that generates square numbers.
+- `improved_classes.py`: Enhanced implementations with type hints and error handling
+- `test_classes.py`: Test cases for the implemented classes
+- `classes.md`: Detailed documentation with examples
 
 ## Usage
 
-1. Import the classes:
-```python
-from improved_classes import Employee, Developer, Manager, SquaresIterator
-```
+To use the examples:
 
-2. Create instances:
-```python
-# Create an employee
-emp = Employee("John", "Doe", 50000)
-
-# Create a developer
-dev = Developer("Alice", "Johnson", 70000, "Python")
-
-# Create a manager
-manager = Manager("Eve", "Brown", 80000)
-```
-
-3. Run the tests:
+1. Clone the repository
+2. Navigate to the `classes_in_python` directory
+3. Run the test cases:
 ```bash
 python test_classes.py
 ```
-
-## Best Practices
-
-1. Always use type hints for better code clarity
-2. Validate inputs to prevent errors
-3. Use proper docstrings for documentation
-4. Handle exceptions appropriately
-5. Use inheritance when appropriate
-6. Keep methods focused and single-purpose
 
 ## Requirements
 
