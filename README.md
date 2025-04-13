@@ -2,83 +2,6 @@
 
 A collection of Python tutorials and examples to help you advance your Python skills.
 
-## Table of Contents
-
-1. [Python Classes](#python-classes)
-2. [Multiprocessing](#multiprocessing)
-
-## Python Classes
-
-The [classes_in_python](classes_in_python) directory contains comprehensive documentation and examples of different types of classes in Python.
-
-### Documentation
-
-The main documentation is available in [classes.md](classes_in_python/classes.md), which covers:
-
-- Basic Classes and Instances
-- Class Variables
-- Class Methods
-- Static Methods
-- Inheritance
-- Property Decorator
-- Iterator Class
-
-### Examples
-
-The repository includes:
-
-- `improved_classes.py`: Enhanced implementations with type hints and error handling
-- `test_classes.py`: Test cases for the implemented classes
-- `classes.md`: Detailed documentation with examples
-
-### Usage
-
-To use the examples:
-
-1. Navigate to the `classes_in_python` directory
-2. Run the test cases:
-```bash
-python test_classes.py
-```
-
-## Multiprocessing
-
-The [examples_of_multiprocessing](examples_of_multiprocessing) directory contains examples and explanations of Python's multiprocessing capabilities.
-
-### Documentation
-
-The main documentation is available in [multiprocessing.md](examples_of_multiprocessing/multiprocessing.md), which covers:
-
-- When to use multiprocessing vs multithreading
-- Basic multiprocessing examples
-- Advanced multiprocessing patterns
-- Best practices and performance considerations
-
-### Examples
-
-The repository includes practical examples of:
-
-- Simple multiprocessing
-- Process pools
-- Shared memory
-- Process communication
-- Error handling in multiprocessing
-
-### Usage
-
-To run the examples:
-
-1. Navigate to the `examples_of_multiprocessing` directory
-2. Run the example scripts:
-```bash
-python example_script.py
-```
-
-## Requirements
-
-- Python 3.6+
-- No external dependencies required for basic examples
-
 ### Examples of some concepts in python, and other python handy-dandys
 ___
 
@@ -89,6 +12,17 @@ The audience of this book is assumed to be for fellow data scientist, who are lo
 
 Contents:
 ## Some topics of Object-oriented programming in python
+The [classes_in_python](classes_in_python) directory contains comprehensive documentation and examples of different types of classes in Python.
+
+The main documentation is available in [classes.md](classes_in_python/classes.md), which covers:
+
+- Basic Classes and Instances
+- Class Variables
+- Class Methods
+- Static Methods
+- Inheritance
+- Property Decorator
+- Iterator Class
 
 - [Types of classes](https://bkocis.github.io/advance-your-python/classes_in_python/classes)
   - [class variables](https://bkocis.github.io/advance-your-python/classes_in_python/classes#Class_variables)
@@ -102,7 +36,18 @@ Contents:
   - [encapsulation](https://bkocis.github.io/advance-your-python/classes_in_python/encapsulation)
   - [magic methods](https://bkocis.github.io/advance-your-python/classes_in_python/magic_methods)
 
-## Parallelization
+
+
+## Parallelization - Multiprocessing
+
+The [examples_of_multiprocessing](examples_of_multiprocessing) directory contains examples and explanations of Python's multiprocessing capabilities.
+
+The main documentation is available in [multiprocessing.md](examples_of_multiprocessing/multiprocessing.md), which covers:
+
+- When to use multiprocessing vs multithreading
+- Basic multiprocessing examples
+- Advanced multiprocessing patterns
+- Best practices and performance considerations
 
 - [Examples of using multiprocessing](https://bkocis.github.io/advance-your-python/examples_of_multiprocessing/multiprocessing)
 
