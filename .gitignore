@@ -1,5 +1,6 @@
 /.idea/
 /resources/
 /resources/.ipynb_checkpoints/
-/classes_in_python/.ipynb_checkpoints/
+/classes_in_python/resources/.ipynb_checkpoints/
 /examples_of_multiprocessing/resources/
+/classes_in_python/resources/
