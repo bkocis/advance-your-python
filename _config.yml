@@ -13,7 +13,7 @@ sphinx:
 repository:
   url: https://github.com/bkocis/advance-your-python
   path_to_book:  .
-  branch: master
+  branch: feature/udpdate-text-and-config
 
 html:
   use_issues_button: true
@@ -32,7 +32,6 @@ plugins:
   - jekyll-seo-tag
 
 # Site settings
-email: your-email@example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 
